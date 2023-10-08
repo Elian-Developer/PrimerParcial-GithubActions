@@ -19,4 +19,4 @@ jobs:
 
       - name: Despliegue en Surge.sh
         run: |
-          surge --project ./ --domain devops.surge.sh --token ${{ secrets.SURGE_API_KEY }}
+          surge --project ./ --domain ParcialElectiva2.surge.sh --token ${{ secrets.SURGE_API_KEY }}
